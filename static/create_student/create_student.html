@@ -1,0 +1,13 @@
+<div>
+    <p></p>
+    <h3>Добавить студента</h3>
+    <form novalidate ng-submit="createStudent()">
+        <input class="form-control" type="text" placeholder="Имя" ng-model="new_student.name">
+        <p></p>
+        <input class="form-control" type="number" placeholder="Возраст" ng-model="new_student.age">
+        <p></p>
+        <input class="form-control" type="text" placeholder="Название категории" ng-model="new_student.categoryTitle">
+        <p></p>
+        <button type="submit" class="btn btn-primary">Создать</button>
+    </form>
+</div>
